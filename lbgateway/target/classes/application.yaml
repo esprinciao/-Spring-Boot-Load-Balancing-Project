@@ -1,0 +1,21 @@
+spring:
+ application:
+  name: lbgateway
+# cloud:
+#  gateway:
+#   routes:
+#    - id: lbservice-route
+#      uri: lb://lbservice
+#      predicates:
+#       - Path=/test/**
+#   discovery:
+#    locator:
+#     enabled: true
+
+  
+  
+server:
+ port: 9999
+ 
+ 
+
